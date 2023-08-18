@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Gideon+Roman&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Roll The Dice</h1>
+      <div class="players">
+        <div class="player1">
+          <h2>Player 1</h2>
+          <img src="./images/6.png" alt="6" id="dice-1" />
+        </div>
+        <div class="player2">
+          <h2>Player 2</h2>
+          <img src="./images/6.png" alt="6" id="dice-2" />
+        </div>
+      </div>
+      <button onclick="rollDice()" class="btn">Roll</button>
+    </div>
+    <footer>
+      Made By <a href="https://github.com/AkshatGupta2005">Akshat Gupta</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
