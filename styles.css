@@ -1,0 +1,50 @@
+html * {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  background-color: #a6d1e6;
+  color: #7f5283;
+}
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+.players {
+  font-family: "Gideon Roman", cursive;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  text-align: center;
+}
+footer {
+  font-family: "Gideon Roman", cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+#dice-1,
+#dice-2 {
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.btn {
+  margin-top: 30px;
+  width: 100px;
+  font-family: "Gideon Roman", cursive;
+  height: 60px;
+  font-size: 40px;
+  background-color: #7f5283;
+  border-radius: 10px;
+  border-color: #a6d1e6;
+  color: #a6d1e6;
+}
